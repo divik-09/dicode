@@ -1,0 +1,12 @@
+{
+  "name": "dicode",
+  "version": "1.0.0",
+  "description": "DiCode: an agentic coding assistant for your terminal. Reads, edits and runs your code with your permission.",
+  "type": "module",
+  "bin": { "dicode": "bin/dicode.js" },
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test --test-concurrency=1 test/*.test.js" },
+  "engines": { "node": ">=20" },
+  "keywords": ["ai", "coding-agent", "cli", "claude", "llm", "developer-tools"],
+  "license": "MIT"
+}
